@@ -17,6 +17,9 @@ In the portfolio page should contain a navbar with anchor tags. A brief introduc
 * Its done when the webpage is responsive.
 
 * Deployed Link: 
-
+https://sahanaroy1.github.io/Sahana.Roy_Portfolio/
 
 # Snippet of Portfolio Website:
+
+<img width="1435" alt="portfolio snippet" src="https://github.com/Sahanaroy1/Sahana.Roy_Portfolio/assets/127791384/ef6e19b7-5749-4013-aacf-02ef7a051c27">
+
