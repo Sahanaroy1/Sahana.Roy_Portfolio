@@ -1,6 +1,6 @@
 :root {
   --font-family:'Montserrat', sans-serif;
-  --dark: #1d354b;
+  --dark: #11433a;
   --light: #fff;
   --body-color: rgb(228, 236, 238);
   --navlink-color: #b9c6ae;
@@ -65,6 +65,12 @@ p{
     position: relative;
     
 }
+.mountain{
+  position: absolute;
+  left: 80px;
+  top:240px;
+  height: 100px;
+}
 .top-cloud{
     position: absolute;
     right: 40px;
@@ -73,7 +79,7 @@ p{
 .bottom-cloud{
     position: absolute;
     left: 250px;
-    top: 90px;
+    top: 70px;
 }
 .intro{
     width: 30%;
@@ -131,6 +137,7 @@ p{
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
   }
   .contact-messsage{
@@ -159,6 +166,8 @@ footer{
   position: relative;
   text-align: center;
   color: var(--light);
+ 
+
 }
 .project2{
   position: relative;
@@ -172,6 +181,7 @@ footer{
   margin:90px;
   
 }
+
 .text-image-pre-work {
   position: absolute;
   top: 80%;
@@ -182,6 +192,7 @@ footer{
   
   border-radius: 30%;
   transform: translate(-50%, -50%);
+ 
 
 }
 .text-image-code-refactor{
@@ -210,9 +221,12 @@ footer{
 }
 nav a:hover {
   color: #630707;
-  text-shadow: 0 0 10px #000 inset;
+  text-shadow: 2px 2px 2px #b5a1a1;
 }
-
+footer a:hover{
+  color: #332020;
+  text-shadow: 2px 2px 2px #b5a1a1;
+}
 @media screen and (max-width: 992px){
   h1{
     font-size: 80px;
@@ -251,12 +265,18 @@ nav a:hover {
   .bottom-cloud{
     position: absolute;
     left: 100px;
-    bottom: 80px;
+    top:180px;
 }
 .top-cloud{
   position: absolute;
   right: 40px;
   top:80px;
+}
+.mountain{
+  position: absolute;
+  left: 10px;
+  top:240px;
+  height: 100px;
 }
 p{
   font-size: 20px;
