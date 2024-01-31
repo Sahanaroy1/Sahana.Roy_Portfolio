@@ -23,3 +23,6 @@ https://sahanaroy1.github.io/Sahana.Roy_Portfolio/
 
 <img width="1435" alt="portfolio snippet" src="https://github.com/Sahanaroy1/Sahana.Roy_Portfolio/assets/127791384/ef6e19b7-5749-4013-aacf-02ef7a051c27">
 
+# Snippet of responsive testing:
+
+![Responsive-testing](https://github.com/Sahanaroy1/Sahana.Roy_Portfolio/assets/127791384/51d46e2f-e5e4-4451-abcf-b6c8d6a73a21)
