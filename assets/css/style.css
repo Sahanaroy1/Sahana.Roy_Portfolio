@@ -24,11 +24,9 @@ nav ul {
   }
   nav li{
     list-style-type: none;
-    font-size: 25px;
-    
-    
+    font-size: 25px;   
+    padding-top: 10px; 
   }
-  
   nav a {
     color: var(--dark);
     font-weight: bold;
@@ -36,7 +34,6 @@ nav ul {
     font-family: var(--font-family);
     padding-bottom: 5px;
     padding: 20px;
-    
   }
 h1{
     margin: 50px auto 0 auto;
@@ -59,10 +56,11 @@ p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
 }
+
 .top-container{
-    
     background-color: #d8f0f0;
     position: relative;
+    margin-top: -15px;
     
 }
 .mountain{
@@ -88,11 +86,7 @@ p{
 .main-container{
    margin: 100px 0;
 }
-.work{
-    display: flex;
-  }
-  
-  .show-projects{
+.show-projects{
     display: flex;
     flex:0 0 600px;
     flex-direction: row;
@@ -101,66 +95,67 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  .show-projects p{
+}
+.show-projects p{
     height: 50px;
     width: 100px;
     background-color: #40514E;
     z-index: 1;
     
-  }
-  #pre-work{
+}
+#pre-work{
     
-    border-radius: 50%;
-    margin: auto;
+  border-radius: 50%;
+  margin: auto;
   width: 50%;
   padding: 10px;
    
-  }
-  #code-refactor #first-day{
-    height: auto;
-    justify-content: space-around;
-  }
+}
+#code-refactor #first-day{
+  height: auto;
+  justify-content: space-around;
+}
   
-  .btn {
-    background: #11CDD4;
-    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
-    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
-    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
-    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
-    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
-    -webkit-border-radius: 8;
-    -moz-border-radius: 8;
-    border-radius: 8px;
-    font-family: var(--font-family);
-    color: var(--light);
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: var(--font-family);
+  color: var(--light);
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
-  }
-  .contact-messsage{
-    width: 30%;
-    margin: 40px auto 60px;
+}
+.contact-messsage{
+  width: 30%;
+  margin: 40px auto 60px;
 }
 footer{
-    margin-top: 20px;
-   
-    background-color: #66BFBF;
-    padding: 50px 0 40px;
+  margin-top: 40px;
+  height: 80px;
+  background-color: #66BFBF;
+  padding: 50px 0 40px;
+  margin-bottom: -100px;
 }
 .footer-link{
-    text-decoration: none;
-    color: #40514E;
-    font-size: 1.25rem;
-    padding: 20px;
+  text-decoration: none;
+  color: #40514E;
+  font-size: 1.25rem;
+  padding: 20px;
 }
 .copy-right{
-    color: #EAF6F6;
-    font-size: 0.75rem;
-    padding: 20px 0;
-    margin-bottom: 0px;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  margin-bottom: 0px;
 }
 .project1{
   position: relative;
@@ -189,14 +184,10 @@ footer{
   color: rgb(225, 178, 178);
   font-family: var(--font-family);
   font-size: 30px;
-  
   border-radius: 30%;
   transform: translate(-50%, -50%);
- 
-
 }
 .text-image-code-refactor{
-  
   position: absolute;
   bottom: -20%;
   left: 40%;
@@ -204,7 +195,6 @@ footer{
   font-family: var(--font-family);
   font-size:20px;
   transform: translate(-50%, -50%);
-  
 }
 .text-image-first-repo{
   position: absolute;
@@ -214,7 +204,6 @@ footer{
   font-family: var(--font-family);
   font-size:20px;
   transform: translate(-60%, -50%);
- 
 }
 .contact-me p{
   font-size: 20px;
@@ -227,32 +216,33 @@ footer a:hover{
   color: #332020;
   text-shadow: 2px 2px 2px #b5a1a1;
 }
+
 @media screen and (max-width: 992px){
   h1{
     font-size: 80px;
   }
   h2{
     font-size: 1.5rem;
-    font-weight: normal;
-   
-   
+    font-weight: normal; 
   }
   .top-cloud{
     position: absolute;
     right: 80px;
-    top:90px;
+    top:120px;
   }
   .bottom-cloud{
     position: absolute;
     left: 70px;
-    top: 170px;
+    top: 90px;
 }
 }
 @media screen and (max-width: 768px) {
-  header nav{
-    flex-wrap: wrap;
-    flex-direction: column; 
+  nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
   }
+ 
   h1{
     font-size: 50px;
   }
@@ -264,25 +254,25 @@ footer a:hover{
   }
   .bottom-cloud{
     position: absolute;
-    left: 100px;
-    top:180px;
-}
-.top-cloud{
-  position: absolute;
-  right: 40px;
-  top:80px;
-}
-.mountain{
-  position: absolute;
-  left: 10px;
-  top:240px;
-  height: 100px;
-}
-p{
-  font-size: 20px;
-}
-.contact-me p{
-  font-size: 15px;
-}
+    left: 20px;
+    top:30px;
+  }
+  .top-cloud{
+    position: absolute;
+    right: 40px;
+    top:90px;
+  }
+  .mountain{
+    position: absolute;
+    left: 10px;
+    top:280px;
+    height: 100px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .contact-me p{
+    font-size: 15px;
+  }
 
 }
