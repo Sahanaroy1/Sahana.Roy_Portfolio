@@ -4,7 +4,7 @@
 
 * As a Web Developer this week's challenge is start from the scratch.We have to create a Portfolio page. It is good showcase of our knowledge and easier for the employer to understand.
     
-In the portfolio page should contain a navbar with anchor tags. A brief introduction and project done by us. Along with contact details and tagged with github linkedin.
+  In the portfolio page should contain a navbar with anchor tags. A brief introduction and project done by us. Along with contact details and tagged with github linkedin.
 
 
 ## Acceptance Criteria
