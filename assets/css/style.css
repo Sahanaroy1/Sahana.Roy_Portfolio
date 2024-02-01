@@ -253,8 +253,7 @@ footer a:hover{
 @media screen and (max-width: 768px) {
   nav ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+    justify-content: flex-start;
     flex-direction: row; 
   }
   h1{
