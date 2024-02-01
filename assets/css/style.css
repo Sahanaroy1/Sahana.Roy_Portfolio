@@ -27,6 +27,7 @@ nav ul {
   flex-direction: row;
   min-width: 400px;
   padding-left: 80px;
+  margin-right: 20px;
 }
 nav li{
   list-style-type: none;
