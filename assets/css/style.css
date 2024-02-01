@@ -253,7 +253,8 @@ footer a:hover{
 @media screen and (max-width: 768px) {
   nav ul {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: left;
     flex-direction: row; 
   }
   h1{
@@ -303,6 +304,9 @@ footer a:hover{
   .contact-me p{
     font-size: 15px;
   }
-  
+  footer li{
+    justify-content: left;
+    flex-direction: row;
+  }
   
 }
